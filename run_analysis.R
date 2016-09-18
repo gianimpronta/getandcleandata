@@ -21,6 +21,19 @@ colnames(dfx) <- features[[1]]
 dfmeanstd <- dfx[,grepl(".*-mean\\(\\).*|.*-std\\(\\).*", names(dfx))]
 rm(dfx,x_train, x_test)
 
+### Reading the y files
+y_test <- read.table("./test/y_test.txt", col.names = "Activity")
+y_train <- read.table("./train/y_train.txt", col.names = "Activity")
+dfactivity <- rbind(y_test, y_train)
+dfactivity[[1]] <- factor(dfactivity[[1]], labels = activity_labels[[2]])
+rm(y_test, y_train)
+
+### Reading the y files
+y_test <- read.table("./test/y_test.txt", col.names = "Activity")
+y_train <- read.table("./train/y_train.txt", col.names = "Activity")
+dfactivity <- rbind(y_test, y_train)
+dfactivity[[1]] <- factor(dfactivity[[1]], labels = activity_labels[[2]])
+rm(y_test, y_train)
 
 ### Creating a vector to rename the variables
 newnames <- character(0)
@@ -33,7 +46,7 @@ createnames <- function(){
       for(i in 1:5){
             for(j in 1:2){
                   for(k in 1:3){
-                        newnames[counter] <<- paste(firstpart[i], secondpart[j], thirdpart[k], sep = "-")
+                        newnames[counter] <<- paste("time", firstpart[i], secondpart[j], thirdpart[k], sep = "-")
                         counter <- counter+1
                   }
             }
@@ -41,38 +54,31 @@ createnames <- function(){
       
       for(i in 1:5){
             for(j in 1:2){
-                  newnames[counter] <<- paste(firstpart[i], "Magnitude", secondpart[j], sep = "-")
+                  newnames[counter] <<- paste("time", firstpart[i], "Magnitude", secondpart[j], sep = "-")
                   counter <- counter+1
             }
       }
       for(i in c(1,3,4)){
             for(j in 1:2){
                   for(k in 1:3){
-                        newnames[counter] <<- paste(firstpart[i], secondpart[j], thirdpart[k], "FFT", sep = "-")
+                        newnames[counter] <<- paste("FFT", firstpart[i], secondpart[j], thirdpart[k], sep = "-")
                         counter <- counter+1
                   }
             }
       }
       for(j in 1:2){
-            newnames[counter] <<- paste(firstpart[1], "Magnitude", secondpart[j], "FFT", sep = "-")
+            newnames[counter] <<- paste("FFT", firstpart[1], "Magnitude", secondpart[j],  sep = "-")
             counter <- counter+1
       }
       for(i in 3:5){
             for(j in 1:2){
-                  newnames[counter] <<- paste(firstpart[i], "Magnitude", secondpart[j], "FFT", sep = "-")
+                  newnames[counter] <<- paste("FFT", firstpart[i], "Magnitude", secondpart[j],  sep = "-")
                   counter <- counter+1
             }      
       }
 }
 createnames()
 colnames(dfmeanstd) <- newnames
-
-### Reading the y files
-y_test <- read.table("./test/y_test.txt", col.names = "Activity")
-y_train <- read.table("./train/y_train.txt", col.names = "Activity")
-dfactivity <- rbind(y_test, y_train)
-dfactivity[[1]] <- factor(dfactivity[[1]], labels = activity_labels[[2]])
-rm(y_test, y_train)
 
 rm(features, activity_labels)
 

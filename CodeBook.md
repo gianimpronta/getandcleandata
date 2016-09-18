@@ -14,54 +14,54 @@ These signals were used to estimate variables of the feature vector for each pat
 
 "Activity"																	The activity being performed
 
-"BodyAcceleration-Mean-XYZ"                 Mean of the body signal from accelerometer in the three axes (in g's)
-"BodyAcceleration-StdDev-XYZ"               Standard Deviation of the body signal from accelerometer in the three axes (in g's)
+“time-BodyAcceleration-Mean-XYZ"                 Mean of the body signal from accelerometer in the three axes (in g's)
+"time-BodyAcceleration-StdDev-XYZ"               Standard Deviation of the body signal from accelerometer in the three axes (in g's)
 
-"GravityAcceleration-Mean-XYZ"              Mean of the gravity signal from accelerometer in the three axes (in g's)
-"GravityAcceleration-StdDev-XYZ"            Standard Deviation of the gravity signal from accelerometer in the three axes (in g's)
+"time-GravityAcceleration-Mean-XYZ"              Mean of the gravity signal from accelerometer in the three axes (in g's)
+"time-GravityAcceleration-StdDev-XYZ"            Standard Deviation of the gravity signal from accelerometer in the three axes (in g's)
 
-"BodyAccelerationJerk-Mean-XYZ"             Mean of the body signal from accelerometer in the three axes (in g's) and angular velocity 																							derivated in time to obtain Jerk Signals
-"BodyAccelerationJerk-StdDev-XYZ"           Standard Deviation of the body signal from accelerometer in the three axes (in g's) and 																								angular velocity derivated in time to obtain Jerk Signals
+"time-BodyAccelerationJerk-Mean-XYZ"             Mean of the body signal from accelerometer in the three axes (in g's) and angular velocity 																							derivated in time to obtain Jerk Signals
+"time-BodyAccelerationJerk-StdDev-XYZ"           Standard Deviation of the body signal from accelerometer in the three axes (in g's) and 																								angular velocity derivated in time to obtain Jerk Signals
 
-"BodyGyroscope-Mean-XYZ"                    Mean of the body signal from gyroscope in the three axes (in g's)
-"BodyGyroscope-StdDev-XYZ"                  Standard Deviation of the body signal from gyroscope in the three axes (in g's)
+"time-BodyGyroscope-Mean-XYZ"                    Mean of the body signal from gyroscope in the three axes (in g's)
+"time-BodyGyroscope-StdDev-XYZ"                  Standard Deviation of the body signal from gyroscope in the three axes (in g's)
 
-"BodyGyroscopeJerk-Mean-XYZ"                Mean of the body signal from gyroscope in the three axes (in g's) and angular velocity                                                 derivated in time to obtain Jerk Signals
-"BodyGyroscopeJerk-StdDev-XYZ"              Standard Deviation of the body signal from gyroscope in the three axes (in g's) and angular                                            velocity derivated in time to obtain Jerk Signals
+"time-BodyGyroscopeJerk-Mean-XYZ"                Mean of the body signal from gyroscope in the three axes (in g's) and angular velocity                                                 derivated in time to obtain Jerk Signals
+"time-BodyGyroscopeJerk-StdDev-XYZ"              Standard Deviation of the body signal from gyroscope in the three axes (in g's) and angular                                            velocity derivated in time to obtain Jerk Signals
 
-"BodyAcceleration-Magnitude-Mean"           Mean of the body signal from accelerometer magnitude
-"BodyAcceleration-Magnitude-StdDev"         Standard Deviation of the body signal from accelerometer magnitude
+"time-BodyAcceleration-Magnitude-Mean"           Mean of the body signal from accelerometer magnitude
+"time-BodyAcceleration-Magnitude-StdDev"         Standard Deviation of the body signal from accelerometer magnitude
 
-"GravityAcceleration-Magnitude-Mean"        Mean of the gravity signal from accelerometer magnitude
-"GravityAcceleration-Magnitude-StdDev"      Standard Deviation of the gravity signal from accelerometer magnitude
+"time-GravityAcceleration-Magnitude-Mean"        Mean of the gravity signal from accelerometer magnitude
+"time-GravityAcceleration-Magnitude-StdDev"      Standard Deviation of the gravity signal from accelerometer magnitude
 
-"BodyAccelerationJerk-Magnitude-Mean"       Mean of the body signal from accelerometer and angular velocity derivated in time t																											to obtain Jerk Signals magnitude
-"BodyAccelerationJerk-Magnitude-StdDev"     Standard Deviation of the body signal from accelerometer and angular velocity derivated in 																							time to obtain Jerk Signals magnitude
+"time-BodyAccelerationJerk-Magnitude-Mean"       Mean of the body signal from accelerometer and angular velocity derivated in time t																											to obtain Jerk Signals magnitude
+"time-BodyAccelerationJerk-Magnitude-StdDev"     Standard Deviation of the body signal from accelerometer and angular velocity derivated in 																							time to obtain Jerk Signals magnitude
 
-"BodyGyroscope-Magnitude-Mean"              Mean of the body signal from gyroscope magnitude
-"BodyGyroscope-Magnitude-StdDev"            Standard Deviation of the body signal from gyroscope magnitude
+"time-BodyGyroscope-Magnitude-Mean"              Mean of the body signal from gyroscope magnitude
+"time-BodyGyroscope-Magnitude-StdDev"            Standard Deviation of the body signal from gyroscope magnitude
 
-"BodyGyroscopeJerk-Magnitude-Mean"          Mean of the body signal  from gyroscope in the and angular velocity derivated in time to 																								obtain Jerk Signals magnitude
-"BodyGyroscopeJerk-Magnitude-StdDev"        Standard Deviation of the body signal from gyroscope and angular velocity derivated in time 																						to obtain Jerk Signals magnitude
+"time-BodyGyroscopeJerk-Magnitude-Mean"          Mean of the body signal  from gyroscope in the and angular velocity derivated in time to 																								obtain Jerk Signals magnitude
+"time-BodyGyroscopeJerk-Magnitude-StdDev"        Standard Deviation of the body signal from gyroscope and angular velocity derivated in time 																						to obtain Jerk Signals magnitude
 
-"BodyAcceleration-Mean-XYZ-FFT"             Mean of the body signal from accelerometer in the three axes (in g's) after a Fast Fourier Transform
-"BodyAcceleration-StdDev-XYZ-FFT"						Standard Deviation of the body signal from accelerometer in the three axes (in g's) after a Fast Fourier Transform
+“FFT-BodyAcceleration-Mean-XYZ"             Mean of the body signal from accelerometer in the three axes (in g's) after a Fast Fourier Transform
+"FFT-odyAcceleration-StdDev-XYZ"						Standard Deviation of the body signal from accelerometer in the three axes (in g's) after a Fast Fourier Transform
 
-"BodyAccelerationJerk-Mean-XYZ-FFT"					Mean of the body signal from accelerometer in the three axes (in g's) and angular velocity 																							derivated in time to obtain Jerk Signals after a Fast Fourier Transform
-"BodyAccelerationJerk-StdDev-XYZ-FFT"				Standard Deviation of the body signal from accelerometer in the three axes (in g's) and 																								angular velocity derivated in time to obtain Jerk Signals after a Fast Fourier Transform
+"FFT-BodyAccelerationJerk-Mean-XYZ"					Mean of the body signal from accelerometer in the three axes (in g's) and angular velocity 																							derivated in time to obtain Jerk Signals after a Fast Fourier Transform
+"FFT-BodyAccelerationJerk-StdDev-XYZ"				Standard Deviation of the body signal from accelerometer in the three axes (in g's) and 																								angular velocity derivated in time to obtain Jerk Signals after a Fast Fourier Transform
 
-"BodyGyroscope-Mean-XYZ-FFT"								Mean of the body signal from gyroscope in the three axes (in g's) after a Fast Fourier Transform
-"BodyGyroscope-StdDev-XYZ-FFT"							Standard Deviation of the body signal from gyroscope in the three axes (in g's) after a Fast Fourier Transform
+"FFT-BodyGyroscope-Mean-XYZ"								Mean of the body signal from gyroscope in the three axes (in g's) after a Fast Fourier Transform
+"FFT-BodyGyroscope-StdDev-XYZ"							Standard Deviation of the body signal from gyroscope in the three axes (in g's) after a Fast Fourier Transform
 
-"BodyAcceleration-Magnitude-Mean-FFT"				Mean of the body signal from accelerometer magnitude after a Fast Fourier Transform
-"BodyAcceleration-Magnitude-StdDev-FFT"     Standard Deviation of the body signal from accelerometer magnitude after a Fast Fourier Transform
+"FFT-BodyAcceleration-Magnitude-Mean"				Mean of the body signal from accelerometer magnitude after a Fast Fourier Transform
+"FFT-BodyAcceleration-Magnitude-StdDev"     Standard Deviation of the body signal from accelerometer magnitude after a Fast Fourier Transform
 
 
-"BodyAccelerationJerk-Magnitude-Mean-FFT		Mean of the body signal from accelerometer and angular velocity derivated in time t																											to obtain Jerk Signals magnitude after a Fast Fourier Transform
-"BodyAccelerationJerk-Magnitude-StdDev-FFT"	Standard Deviation of the body signal from accelerometer and angular velocity derivated 																								in time to obtain Jerk Signals magnitude after a Fast Fourier Transform
+"FFT-BodyAccelerationJerk-Magnitude-Mean”		Mean of the body signal from accelerometer and angular velocity derivated in time t																											to obtain Jerk Signals magnitude after a Fast Fourier Transform
+"FFT-BodyAccelerationJerk-Magnitude-StdDev"	Standard Deviation of the body signal from accelerometer and angular velocity derivated 																								in time to obtain Jerk Signals magnitude after a Fast Fourier Transform
 
-"BodyGyroscope-Magnitude-Mean-FFT"					Mean of the body signal from gyroscope magnitude after a Fast Fourier Transform
-"BodyGyroscope-Magnitude-StdDev-FFT"				Standard Deviation of the body signal from gyroscope magnitude after a Fast Fourier Transform
+"FFT-BodyGyroscope-Magnitude-Mean"					Mean of the body signal from gyroscope magnitude after a Fast Fourier Transform
+"FFT-BodyGyroscope-Magnitude-StdDev"				Standard Deviation of the body signal from gyroscope magnitude after a Fast Fourier Transform
 
-"BodyGyroscopeJerk-Magnitude-Mean-FFT"			Mean of the body signal  from gyroscope in the and angular velocity derivated in time to 																								obtain Jerk Signals magnitude after a Fast Fourier Transform
-"BodyGyroscopeJerk-Magnitude-StdDev-FFT"		Standard Deviation of the body signal from gyroscope and angular velocity derivated in time 																						to obtain Jerk Signals magnitude after a Fast Fourier Transform
+"FFT-BodyGyroscopeJerk-Magnitude-Mean"			Mean of the body signal  from gyroscope in the and angular velocity derivated in time to 																								obtain Jerk Signals magnitude after a Fast Fourier Transform
+"FFT-BodyGyroscopeJerk-Magnitude-StdDev"		Standard Deviation of the body signal from gyroscope and angular velocity derivated in time 																						to obtain Jerk Signals magnitude after a Fast Fourier Transform
